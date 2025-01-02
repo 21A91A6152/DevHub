@@ -32,8 +32,8 @@ import GoogleTranslate from "./components/GoogleTranslate";
 import ProgressScrollDown from "./components/ProgressScrollDown";
 import Preloader from "./components/PreLoader"; 
 import "./App.css"
-import axios from "axios";
-axios.defaults.baseURL = "https://style-share-ivory.vercel.app/";
+// import axios from "axios";
+// axios.defaults.baseURL = "https://style-share-ivory.vercel.app/";
 
 function App() {
   const { theme, toggleTheme } = useTheme();
