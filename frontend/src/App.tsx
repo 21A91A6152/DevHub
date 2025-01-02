@@ -33,7 +33,7 @@ import ProgressScrollDown from "./components/ProgressScrollDown";
 import Preloader from "./components/PreLoader"; 
 import "./App.css"
 import axios from "axios";
-axios.defaults.baseURL = "http://localhost:3001/";
+axios.defaults.baseURL = "https://style-share-ivory.vercel.app/";
 
 function App() {
   const { theme, toggleTheme } = useTheme();
