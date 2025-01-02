@@ -18,8 +18,8 @@ import Layout from "./components/Layout";
 import Favorites from "./pages/Favorites";
 import Reactions from "./pages/Reactions";
 import UsersFeedbacks from "./pages/UsersFeedbacks";
-import axios from "axios";
-axios.defaults.baseURL = "http://localhost:3001/";
+// import axios from "axios";
+// axios.defaults.baseURL = "http://localhost:3001/";
 
 function App() {
   return (
