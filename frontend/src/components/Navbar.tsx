@@ -67,7 +67,7 @@ const Navbar: React.FC<NavbarProps> = ({ theme, toggleTheme }) => {
             alt="Styleshare Logo"
           />
           <span className="self-center sm:text-2xl font-bold text-white font-mono notranslate">
-            Style Share
+            DevHub
           </span>
         </Link>
         <div className="flex items-center justify-between w-full">

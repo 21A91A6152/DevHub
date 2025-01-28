@@ -9,7 +9,7 @@ const CodeEditor = () => {
   const initialCode = `<div class="relative flex min-h-screen flex-col justify-center overflow-hidden bg-blue-400 py-6 sm:py-12">
     <div class="relative px-6 pt-10 pb-8 shadow-2xl ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-lg sm:rounded-lg sm:px-10">
       <div class="mx-auto max-w-md text-white">
-      <h1 class="text-3xl font-semibold">💅 Style Share</h1>
+      <h1 class="text-3xl font-semibold">💅 DevHub</h1>
         <div class="divide-y divide-gray-300/50">
           <div class="space-y-6 py-8 text-base leading-7">
             <p>An advanced online playground for Tailwind CSS, including support for things like:</p>
@@ -52,7 +52,7 @@ const CodeEditor = () => {
     setActiveTab(tab);
   };
 
-  document.title='Style Share | Code your creativity 👨‍💻'
+  document.title='DevHub | Code your creativity 👨‍💻'
 
   const updateOutput = (code: string, jsCode: string) => {
     const doc = `

@@ -71,7 +71,7 @@ const EditPost = () => {
     );
   }
 
-  document.title='Style Share | Edit your post 📝'
+  document.title='DevHub | Edit your post 📝'
 
   return (
     <div className="p-6 text-[#000435] bg-white dark:text-white dark:bg-[#000435] max-w-screen-xl mx-auto">

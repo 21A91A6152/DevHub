@@ -4,7 +4,7 @@ import NewPosts from '../components/NewPosts';
 
 const Dashboard = () => {
 
-  document.title ="Style Share Admin | Dashboard 👨‍💻"
+  document.title ="DevHub Admin | Dashboard 👨‍💻"
 
   return (
     <div className="h-screen">

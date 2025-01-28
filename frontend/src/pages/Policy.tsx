@@ -17,7 +17,7 @@ function Policy() {
       }
     };
 
-    document.title = 'Style Share | Secret policies 🤫';
+    document.title = 'DevHub | Secret policies 🤫';
 
     scrollToHash();
   }, [location]);

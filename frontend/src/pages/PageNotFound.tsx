@@ -1,7 +1,7 @@
 import notfound from '../assets/notFound.png'
 
 const PageNotFound = () => {
-  document.title='Style Share | Nothing here 🫗'
+  document.title='DevHub | Nothing here 🫗'
 
   return (
     <div className='flex flex-col items-center justify-center mx-auto'>

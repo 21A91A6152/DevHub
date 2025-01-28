@@ -13,7 +13,7 @@ const Comments = () => {
   const [loading,setLoading] = useState(true);
   const token = useRecoilValue(tokenState);
 
-  document.title = "Style Share Admin | Manage Users Comments 💬";
+  document.title = "DevHub Admin | Manage Users Comments 💬";
 
   useEffect(() => {
     fetchPosts();

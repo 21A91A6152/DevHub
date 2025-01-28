@@ -57,7 +57,7 @@ export function FeedbackForm({ user, dismiss, open }: FeedbackFormProps) {
     return (
         <Modal open={open} onClose={dismiss} center classNames={{ modal: 'customModal', overlay: 'customOverlay' }}>
             <div className="p-6">
-                <h3 className="text-lg font-semibold text-gray-900 mb-4">What you think about style share ?</h3>
+                <h3 className="text-lg font-semibold text-gray-900 mb-4">What you think about DevHub ?</h3>
                 <div className="flex flex-col space-y-4">
                     <div>
                         <label className="block text-sm font-medium text-gray-700">Rating</label>

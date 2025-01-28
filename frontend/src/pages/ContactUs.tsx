@@ -22,7 +22,7 @@ function ContactUs() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [fadeTransition, setFadeTransition] = useState(true);
 
-  document.title = 'Style Share | Reach us 📱';
+  document.title = 'DevHub | Reach us 📱';
 
   useEffect(() => {
     const intervalId = setInterval(() => {

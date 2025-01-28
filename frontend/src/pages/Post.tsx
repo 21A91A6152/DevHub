@@ -49,7 +49,7 @@ const Post = () => {
     };
 
     fetchFollowStatus();
-    document.title='Style Share | Post details 📄'
+    document.title='DevHub | Post details 📄'
   }, [post?.author.id, token]);
 
   const handleAddToFavorite = async () => {

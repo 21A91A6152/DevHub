@@ -18,7 +18,7 @@ const ContactMessages = () => {
   const [loading,setLoading] = useState(true);
   const token = useRecoilValue(tokenState);
 
-  document.title = "Style Share Admin | Manage Contact Messages 👥";
+  document.title = "DevHub Admin | Manage Contact Messages 👥";
 
   useEffect(() => {
     const fetchMessages = async () => {

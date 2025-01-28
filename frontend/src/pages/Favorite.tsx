@@ -47,7 +47,7 @@ const Favorite = () => {
       }
     };
 
-    document.title="Style Share | My favorite 💖"
+    document.title="DevHub | My favorite 💖"
 
     getFavoritePosts();
   }, [user]);

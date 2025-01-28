@@ -21,7 +21,7 @@ const Footer = () => {
                             <Link to="/app" className="flex items-center gap-2">
                                 <img src={logo} className="h-8" alt="Styleshare Logo" />
                                 <span className="ml-4 text-2xl font-semibold whitespace-nowrap text-white">
-                                    StyleShare
+                                DevHub
                                 </span>
                             </Link>
                         </div>
@@ -109,7 +109,7 @@ const Footer = () => {
             </div>
             <div className='block w-3/4 m-auto mt-10'>
                 <div className='flex gap-4 justify-center md:justify-end'>
-                    <a href="https://github.com/VaibhavArora314/StyleShare" className="hover:scale-110 hover:shadow-[0_0_10px_2px_blue] transition-transform duration-300 ease-in-out flex items-center justify-center p-2 rounded-full">
+                    <a href="https://github.com/21A91A6152/StyleShare" className="hover:scale-110 hover:shadow-[0_0_10px_2px_blue] transition-transform duration-300 ease-in-out flex items-center justify-center p-2 rounded-full">
                         <FaGithub size={35} className="text-white" />
                     </a>
                     <Link to='/app' className="hover:scale-110 hover:shadow-[0_0_10px_2px_blue] transition-transform duration-300 ease-in-out flex items-center justify-center p-2 text-white rounded-full focus:outline-none">
@@ -118,7 +118,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className='mt-10 text-gray-300 flex justify-center text-md lg:text-xl xl:text-md'>
-                © {currentYear} StyleShare. All Rights Reserved.
+                © {currentYear} DevHub. All Rights Reserved.
             </div>
         </div>
     )

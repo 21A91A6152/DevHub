@@ -28,7 +28,7 @@ const NewPost = () => {
       }
     }
 
-    document.title='Style Share | Create Post 🗽'
+    document.title='DevHub | Create Post 🗽'
   }, [location.state]);
 
   const handleAddTag = () => {

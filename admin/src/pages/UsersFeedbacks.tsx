@@ -12,7 +12,7 @@ const GetFeedbacks = () => {
   const [loading, setLoading] = useState(true);
   const token = useRecoilValue(tokenState);
 
-  document.title = "Style Share Admin | Manage Feedbacks 💬"
+  document.title = "DevHub Admin | Manage Feedbacks 💬"
 
   useEffect(() => {
     const fetchFeedbacks = async () => {

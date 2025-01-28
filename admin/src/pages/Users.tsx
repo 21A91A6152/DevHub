@@ -13,7 +13,7 @@ const Users = () => {
   const [loading,setLoading] = useState(true);
   const token = useRecoilValue(tokenState);
 
-  document.title ="Style Share Admin | Manage Users 👥"
+  document.title ="DevHub Admin | Manage Users 👥"
 
   useEffect(() => {
     const fetchUsers = async () => {

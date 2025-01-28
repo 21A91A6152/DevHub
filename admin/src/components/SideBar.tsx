@@ -24,7 +24,7 @@ const SideBar = ({ sidebarOpen, toggleSidebar }: { sidebarOpen: boolean, toggleS
       <div className="flex items-center justify-between mr-6 mt-3 h-16 px-4">
         <Link to='/admin' className="text-xl flex font-bold">
           <img src={logo} className="h-8 mx-3" alt="Styleshare Logo" /> 
-          Style Share
+          DevHub
         </Link>
         <button onClick={toggleSidebar} className="lg:hidden text-2xl">
           <FaTimes />

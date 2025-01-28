@@ -45,7 +45,7 @@ const Profile = () => {
       }
     };
 
-    document.title = 'Style Share | View profile 👀';
+    document.title = 'DevHub | View profile 👀';
     fetchUser();
   }, [token, posts]);
 

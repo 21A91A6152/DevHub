@@ -15,7 +15,7 @@ const LeaderBoard = () => {
     navigate(`/app/profile/${userId}`);
   }
 
-  document.title = 'Style Share | Top users 😎';
+  document.title = 'DevHub | Top users 😎';
 
   return (
     <div className="min-h-screen text-[#000435] bg-white dark:text-white dark:bg-[#000435]" style={{ backgroundImage: `url(${bgHero})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>

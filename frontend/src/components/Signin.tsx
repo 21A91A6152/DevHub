@@ -22,7 +22,7 @@ const Signin = () => {
   const setTokenState = useSetRecoilState(tokenState);
   const navigate = useNavigate();
 
-  document.title='Style Share | Login page 👋'
+  document.title='DevHub | Login page 👋'
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();

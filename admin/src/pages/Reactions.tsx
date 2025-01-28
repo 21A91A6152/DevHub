@@ -12,7 +12,7 @@ const Reactions = () => {
   const [loading, setLoading] = useState(true);
   const token = useRecoilValue(tokenState);
 
-  document.title = "Style Share Admin | Manage Reactions 📊"
+  document.title = "DevHub Admin | Manage Reactions 📊"
 
   useEffect(() => {
     const fetchReactions = async () => {

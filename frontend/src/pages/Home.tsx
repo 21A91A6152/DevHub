@@ -17,7 +17,7 @@ import { motion, AnimatePresence } from "framer-motion";
 function Home() {
   console.log("Home page rerendered");
 
-  document.title = 'Style Share | Welcome 🙏';
+  document.title = 'DevHub | Welcome 🙏';
 
   const [visibleItems, setVisibleItems] = useState<string[]>([]);
   const [showButton, setShowButton] = useState(false);

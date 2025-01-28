@@ -79,7 +79,7 @@ function About() {
         </Tilt>
         <div className="flex flex-col justify-center">
           <p className="bg-gradient-to-r sm:mt-30 from-blue-600 via-blue-500 to-white inline-block text-transparent bg-clip-text text-4xl md:text-5xl lg:text-6xl font-bold py-1 focus-in-expand">
-            👨‍💻 About Style Share
+            👨‍💻 About DevHub
           </p>
           <h1 className="md:text-2xl text-xl lg:text-3xl font-bold py-4 dark:text-white text-gray-400 mt-10 mb-5 fade-in">
             Unleashing Creativity - Tailwind CSS

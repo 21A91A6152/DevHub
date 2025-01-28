@@ -53,7 +53,7 @@ const Posts = () => {
       }
     };
 
-    document.title = "Style Share | Our Posts 📃";
+    document.title = "DevHub | Our Posts 📃";
 
     document.addEventListener("mousedown", handleClickOutside);
     return () => {

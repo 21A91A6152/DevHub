@@ -12,8 +12,8 @@ const FAQ: React.FC = () => {
 
   const faqs: FAQItem[] = [
     {
-      question: "What is Style Share?",
-      answer: "Style Share is a simple web-based platform where users can contribute, create, explore, and share web design components, focusing on Tailwind CSS.",
+      question: "What is DevHub?",
+      answer: "DevHub is a simple web-based platform where users can contribute, create, explore, and share web design components, focusing on Tailwind CSS.",
 
     },
     {
@@ -22,31 +22,31 @@ const FAQ: React.FC = () => {
         "Users can search any component with search bar from various developers, contribute to open source for more Tailwind components, create their own component to help other developers, and create posts from the 'New Posts' section.",
     },
     {
-      question: "Who can use Style Share?",
+      question: "Who can use DevHub?",
       answer:
-        "Whether you are a seasoned developer looking for inspiration or a beginner taking your first steps into the world of web design, Style Share offers a wealth of resources tailored to your needs.",
+        "Whether you are a seasoned developer looking for inspiration or a beginner taking your first steps into the world of web design, DevHub offers a wealth of resources tailored to your needs.",
     },
     {
-      question: "Is there a cost to use Style Share?",
-      answer: "No, Style Share is completely free to use.",
+      question: "Is there a cost to use DevHub?",
+      answer: "No, DevHub is completely free to use.",
     },
     {
-      question: "How do I contribute to Style Share?",
+      question: "How do I contribute to DevHub?",
       answer:
         "You can contribute by creating your own components and sharing them on the platform. You can also help improve existing components.",
     },
     {
-      question: "Can I use Style Share for commercial projects?",
+      question: "Can I use DevHub for commercial projects?",
       answer:
-        "Yes, you can use the components shared on Style Share for both personal and commercial projects without any restrictions.",
+        "Yes, you can use the components shared on DevHub for both personal and commercial projects without any restrictions.",
     },
     {
       question: "How do I get started with Tailwind CSS?",
       answer:
-        "To get started with Tailwind CSS, visit the official Tailwind CSS documentation. You can also explore the components on Style Share for inspiration and examples.",
+        "To get started with Tailwind CSS, visit the official Tailwind CSS documentation. You can also explore the components on DevHub for inspiration and examples.",
     },
     {
-      question: "Can I request specific components on Style Share?",
+      question: "Can I request specific components on DevHub?",
       answer:
         "Yes, you can request specific components by posting in the 'Requests' section. The community can then create and share the requested components.",
     },
@@ -58,7 +58,7 @@ const FAQ: React.FC = () => {
     {
       question: "How can I give feedback or suggest improvements?",
       answer:
-        "You can provide feedback or suggest improvements by using the 'Feedback' section on the platform. We value your input and strive to continuously improve Style Share.",
+        "You can provide feedback or suggest improvements by using the 'Feedback' section on the platform. We value your input and strive to continuously improve DevHub.",
     },
   ];
 

@@ -14,7 +14,7 @@ const Posts = () => {
   const [loading,setLoading] = useState(true);
   const token = useRecoilValue(tokenState);
 
-  document.title ="Style Share Admin | Manage Users Posts 📃"
+  document.title ="DevHub Admin | Manage Users Posts 📃"
 
   useEffect(() => {
     fetchPosts();

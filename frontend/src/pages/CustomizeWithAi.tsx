@@ -63,7 +63,7 @@ const CustomizeWithAi = () => {
     );
   };
 
-  document.title='Style Share | Customize 🤖'
+  document.title='DevHub | Customize 🤖'
 
   return (
     <div className="-mt-20 w-full text-[#000435] bg-white dark:text-white dark:bg-[#000435] py-16 px-4" style={{ backgroundImage: `url(${bgHero})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>

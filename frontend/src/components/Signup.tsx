@@ -88,7 +88,7 @@ const Signup = () => {
     }
   };
 
-    document.title='Style Share | Register page 👋'
+    document.title='DevHub | Register page 👋'
 
   return (
     <div className="-mt-8 min-h-screen  text-[#000435] bg-white dark:text-white dark:bg-[#000435]"  style={{ backgroundImage: `url(${bgHero})`, backgroundSize: 'cover', backgroundPosition: 'center' }} >

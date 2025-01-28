@@ -12,7 +12,7 @@ const Favorites = () => {
   const [loading, setLoading] = useState(true);
   const token = useRecoilValue(tokenState);
 
-  document.title = "Style Share Admin | Users Favorites 💓";
+  document.title = "DevHub Admin | Users Favorites 💓";
 
   useEffect(() => {
     const fetchFavoritePosts = async () => {

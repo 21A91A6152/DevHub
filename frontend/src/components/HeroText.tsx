@@ -18,13 +18,10 @@ export function TypewriterEffectSmoothDemo() {
       className: "text-white lg:text-4xl md:text-3xl text-typing",
     },
     {
-      text: "Style",
+      text: "DevHub",
       className: "text-blue-500 lg:text-4xl md:text-3xl  text-typing",
     },
-    {
-      text: "Share",
-      className: "text-blue-500 lg:text-4xl md:text-3xl text-typing",
-    },
+   
   ];
 
   return (
