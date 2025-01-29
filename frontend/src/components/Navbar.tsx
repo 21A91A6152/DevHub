@@ -89,13 +89,13 @@ const Navbar: React.FC<NavbarProps> = ({ theme, toggleTheme }) => {
         >
           <FaRegNewspaper size={20} className="mx-1" /> Posts
         </Link>
-        <Link
+        {/* <Link
           to="/app/leaderboard"
           className={`${getNavLinkClass("/app/leaderboard")} flex items-center`}
           onClick={closeMenu}
         >
           <MdLeaderboard size={20} className="mx-1" /> Leaderboard
-        </Link>
+        </Link> */}
       </div>
       <div className="flex items-center gap-2 ml-2">
   {isLoggedIn && (
