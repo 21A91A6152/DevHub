@@ -7,7 +7,7 @@ import logo from "../assets/favicon.png";
 import { FaSun, FaMoon } from "react-icons/fa";
 import { FaHome } from "react-icons/fa";
 import { MdPostAdd } from "react-icons/md";
-import { MdLeaderboard } from "react-icons/md";
+// import { MdLeaderboard } from "react-icons/md";
 import { MdLogin } from "react-icons/md";
 import { FaUserPlus } from "react-icons/fa";
 import { FaRegNewspaper } from "react-icons/fa6";
