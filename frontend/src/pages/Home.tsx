@@ -3,14 +3,14 @@ import hero from "../assets/hero.png";
 import bgHero from "../assets/bgHero.png";
 import '../styles/hero.css';
 import About from "./About";
-import HomePagePost from "./HomePagePosts";
+//import HomePagePost from "./HomePagePosts";
 import { TypewriterEffectSmoothDemo } from "../components/HeroText";
 import MagicButton from "../components/ui/MagicButton";
 import TestimonialSlider from "../components/TestimonialSlider";
 import FAQ from "../components/FAQ";
 import Showcase from "../components/Showcase";
 import Features from "../components/Features";
-import Category from "./Category";
+//import Category from "./Category";
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -97,8 +97,8 @@ function Home() {
       <Features />
       <About />
       <Showcase />
-      <Category />
-      <HomePagePost />
+      {/* <Category />
+      <HomePagePost /> */}
       <TestimonialSlider />
       <FAQ />
     </div>

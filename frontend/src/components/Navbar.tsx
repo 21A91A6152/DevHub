@@ -10,7 +10,7 @@ import { MdPostAdd } from "react-icons/md";
 // import { MdLeaderboard } from "react-icons/md";
 import { MdLogin } from "react-icons/md";
 import { FaUserPlus } from "react-icons/fa";
-import { FaRegNewspaper } from "react-icons/fa6";
+//import { FaRegNewspaper } from "react-icons/fa6";
 import { FaLaptopCode } from "react-icons/fa";
 import { CgProfile } from "react-icons/cg";
 import { MdFavoriteBorder } from "react-icons/md";
@@ -82,6 +82,7 @@ const Navbar: React.FC<NavbarProps> = ({ theme, toggleTheme }) => {
         >
           <FaHome size={20} className="mx-1" /> Home
         </Link>
+        {/*
         <Link
           to="/app/posts"
           className={`${getNavLinkClass("/app/posts")} flex items-center`}
@@ -89,7 +90,7 @@ const Navbar: React.FC<NavbarProps> = ({ theme, toggleTheme }) => {
         >
           <FaRegNewspaper size={20} className="mx-1" /> Posts
         </Link>
-        {/* <Link
+          <Link
           to="/app/leaderboard"
           className={`${getNavLinkClass("/app/leaderboard")} flex items-center`}
           onClick={closeMenu}
@@ -238,6 +239,7 @@ const Navbar: React.FC<NavbarProps> = ({ theme, toggleTheme }) => {
         >
           <FaHome size={20} className="mx-1" />Home
         </Link>
+        {/*
         <Link
           to="/app/posts"
           className={`${getNavLinkClass("/app/posts")} flex items-center`}
@@ -245,7 +247,7 @@ const Navbar: React.FC<NavbarProps> = ({ theme, toggleTheme }) => {
         >
           <FaRegNewspaper size={20} className="mx-1" />Posts
         </Link>
-        {/* <Link
+          <Link
           to="/app/leaderboard"
           className={`${getNavLinkClass("/app/leaderboard")} flex items-center`}
           onClick={closeMenu}
