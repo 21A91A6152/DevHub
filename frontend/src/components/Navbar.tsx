@@ -7,10 +7,10 @@ import logo from "../assets/favicon.png";
 import { FaSun, FaMoon } from "react-icons/fa";
 import { FaHome } from "react-icons/fa";
 import { MdPostAdd } from "react-icons/md";
-// import { MdLeaderboard } from "react-icons/md";
+import { MdLeaderboard } from "react-icons/md";
 import { MdLogin } from "react-icons/md";
 import { FaUserPlus } from "react-icons/fa";
-//import { FaRegNewspaper } from "react-icons/fa6";
+import { FaRegNewspaper } from "react-icons/fa6";
 import { FaLaptopCode } from "react-icons/fa";
 import { CgProfile } from "react-icons/cg";
 import { MdFavoriteBorder } from "react-icons/md";
@@ -82,7 +82,7 @@ const Navbar: React.FC<NavbarProps> = ({ theme, toggleTheme }) => {
         >
           <FaHome size={20} className="mx-1" /> Home
         </Link>
-        {/*
+        
         <Link
           to="/app/posts"
           className={`${getNavLinkClass("/app/posts")} flex items-center`}
@@ -96,7 +96,7 @@ const Navbar: React.FC<NavbarProps> = ({ theme, toggleTheme }) => {
           onClick={closeMenu}
         >
           <MdLeaderboard size={20} className="mx-1" /> Leaderboard
-        </Link> */}
+        </Link> 
       </div>
       <div className="flex items-center gap-2 ml-2">
   {isLoggedIn && (
@@ -239,7 +239,7 @@ const Navbar: React.FC<NavbarProps> = ({ theme, toggleTheme }) => {
         >
           <FaHome size={20} className="mx-1" />Home
         </Link>
-        {/*
+        
         <Link
           to="/app/posts"
           className={`${getNavLinkClass("/app/posts")} flex items-center`}
@@ -253,7 +253,7 @@ const Navbar: React.FC<NavbarProps> = ({ theme, toggleTheme }) => {
           onClick={closeMenu}
         >
           <MdLeaderboard size={20} className="mx-1" /> Leaderboard
-        </Link> */}
+        </Link>
         {isLoggedIn && (
           <>
             <Link
