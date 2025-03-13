@@ -2,12 +2,12 @@ import { useEffect, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import axios, { AxiosError } from "axios";
 import toast from "react-hot-toast";
-// import Comment from "./Comment";
+import Comment from "./Comment";
 import { MdFavorite } from "react-icons/md";
 import { MdFavoriteBorder } from "react-icons/md";
 import { IoMdArrowRoundBack } from "react-icons/io";
 import usePost from "../hooks/usePost";
-// import SharePostButtons from "../components/SharePostButtons";
+import SharePostButtons from "../components/SharePostButtons";
 import ReactionButton from "../components/ReactionButtons";
 import PostCodeWithPreview from "../components/PostCodeWithPreview";
 import bgHero from "../assets/bgHero.png";
@@ -30,8 +30,8 @@ const Post = () => {
   const [isFollowing, setIsFollowing] = useState<boolean>(false);
   const currentUser = useRecoilValue(userState);
 
-  // const shareUrl = window.location.href;
-  // const title = `👋 Hey ! I found amazing tailwind css 💅 component ${post.title} have a look, The design is done by ${post.author.username} check out the link it's amazing 😀`;
+  const shareUrl = window.location.href;
+  const title = `👋 Hey ! I found amazing tailwind css 💅 component ${post.title} have a look, The design is done by ${post.author.username} check out the link it's amazing 😀`;
 
 
   useEffect(() => {
@@ -291,8 +291,8 @@ const Post = () => {
             )
           )}
         </div>
-        {/* <SharePostButtons shareUrl={shareUrl} title={title} />
-        <Comment /> */}
+        <SharePostButtons shareUrl={shareUrl} title={title} />
+        <Comment /> 
       </>
         </div>
     </div>
