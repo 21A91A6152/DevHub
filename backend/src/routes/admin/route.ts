@@ -1,8 +1,11 @@
 import {Router} from 'express';
 import { getPostReactionsController,getFavoritesController,adminLoginController, adminProfileController, allUserForAdmin, blockUserController, unblockUserController, getAdminPostsController, getAdminTrendingPostsController, getAdminStatsController, getGraphsStatsController, updatePostController, deletePostController, getPostByIdController, getAllContactMessages, deleteCommentController, downloadReportController, getFeedbacks, toggleFeedbackVisibility, downloadCommentsReportController, downloadFavoritesReportController, downloadReactionsReportController, downloadUsersReportController, downloadContactMessagesReportController, downloadPostsReportController, deleteContactMessage, deleteFeedback } from './controller';
 import { isAdmin } from '../../middleware/adminAuth';
+import sentimentrouter from './sentimentroute';
 
 const adminRouter = Router();
+
+adminRouter.use("/sentimentanalysis",  sentimentrouter);
 
 adminRouter.post("/login", adminLoginController);
 
