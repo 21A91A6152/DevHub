@@ -23,10 +23,9 @@ Make sure you star the repository and show your love to us💗
 1. [Project Description](#project-description)
 2. [TechStack](#techstack)
 3. [Screenshots](#screenshots)
-4. [Video](#video)
-5. [Code of Conduct](#code-of-conduct)
-6. [Setting Up on your machine](#setting-up-on-your-machine)
-7. [License](#license)
+4. [Code of Conduct](#code-of-conduct)
+5. [Setting Up on your machine](#setting-up-on-your-machine)
+6. [License](#license)
 
 </details>
 <hr>
@@ -65,17 +64,7 @@ Style Share is a collaborative platform designed to streamline the process of cr
 </details>
 
 
-## Video
-
-https://github.com/VaibhavArora314/StyleShare/assets/142779809/bb8969a2-90b2-431a-b95a-a87df61bb39a
-
-<!-- Code of conduct -->
-<div>
-<h2><img src = "https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" width="35" height="35"> Code of Conduct</h2>
-</div>
-
-Please note that this project is released with a [Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
-
+ 
 ## Setting Up on your machine
 
 1. Go to the backend folder and create a .env file similar to [.env.example](https://github.com/VaibhavArora314/StyleShare/blob/main/backend/.env.example)
