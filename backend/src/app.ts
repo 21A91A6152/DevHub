@@ -3,6 +3,7 @@ import rootRouter from "./routes";
 import bodyParser from "body-parser";
 import cors from "cors";
 import path from "path";
+import wakeUpRender from "./routes/admin/wakeUpRender";
 import { config } from "dotenv";
 
 config();
@@ -10,6 +11,8 @@ config();
 const app = express();
 app.use(cors());
 app.use(bodyParser.json());
+
+wakeUpRender().catch((err) => console.error("Warm-up failed:", err));
 
 app.get("/", (req: Request, res: Response) => {
   res.redirect("/app");
