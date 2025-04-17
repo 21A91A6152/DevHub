@@ -70,7 +70,7 @@ const Footer = () => {
                                 </Link>
                             </li>
                             <li className='py-1 cursor-pointer'>
-                                <Link to="/app/contributors" className='flex items-center gap-2 link-hover'>
+                                <Link to="/app/" className='flex items-center gap-2 link-hover'>
                                     <FaRegHandshake size={20} /> Our Contributors
                                 </Link>
                             </li>
